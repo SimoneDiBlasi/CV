@@ -1,0 +1,31 @@
+nav{
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: block;
+}
+
+#container-nav-bar{
+    height: auto;
+    background-color: transparent
+}
+
+#grid-container{
+    height:auto;
+    align-items: center;
+}
+
+.grid{
+    display: inline-table;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+    height: 30px;
+    background-color: grey;  
+    align-items: center;
+}
+
+.grid p{
+    color:white;
+}
