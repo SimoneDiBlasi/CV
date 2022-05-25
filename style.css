@@ -9,7 +9,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 10px 10px 35px #dedede;
+    box-shadow: 10px 10px 25px #dedede;
 }
 
 #container-nav-bar{
@@ -56,3 +56,20 @@ nav{
 .grid a:hover{
     color:rgb(77, 119, 161);
 }
+#image1{
+    width:100%;
+    z-index:1;
+    position:relative;
+    
+}
+
+#container-info{
+width: 80%;
+height: 40%;
+background-color: black;
+z-index:2;
+position:absolute;
+top:30%;
+left:10%;
+}
+
