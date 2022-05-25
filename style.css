@@ -1,8 +1,8 @@
 nav{
     position: sticky;
     width: 100%;
-    height: auto;
-    background-color: grey;
+    height: 6em;
+    background-color:  rgb(238, 238, 240);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,16 +11,16 @@ nav{
 #container-nav-bar{
     height: auto;
     background-color: transparent;
-    width: 100%;
-    
+    width: 90%;
+    display: flex;
 }
 
-#grid-container{
+#grid-containers{
+    display:flex;
     height:auto;
     width: 100%;
-    justify-content: center;
-    display: flex;
-
+    justify-content: right;
+    line-height: 40px;
 }
 
 .grid{
@@ -29,9 +29,21 @@ nav{
     flex-flow: row wrap;
     align-items: stretch;
     height: 30px;
-    margin-left: 1%;  
+    margin-left: 5.5%;  
 }
 
-.grid p{
-    color:white;
+ .grid p{
+    color: rgb(1 84 167);
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 10pt;
 }
+
+#name {
+    justify-content: left;
+    color: rgb(1 84 167);
+
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 15pt;
+    width: 40%
+}
+
