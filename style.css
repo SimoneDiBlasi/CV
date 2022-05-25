@@ -2,18 +2,25 @@ nav{
     position: sticky;
     width: 100%;
     height: auto;
-    background-color: transparent;
-    display: block;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container-nav-bar{
     height: auto;
-    background-color: transparent
+    background-color: transparent;
+    width: 100%;
+    
 }
 
 #grid-container{
     height:auto;
-    align-items: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
 }
 
 .grid{
@@ -22,8 +29,7 @@ nav{
     flex-flow: row wrap;
     align-items: stretch;
     height: 30px;
-    background-color: grey;  
-    align-items: center;
+    margin-left: 1%;  
 }
 
 .grid p{
