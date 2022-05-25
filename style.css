@@ -66,10 +66,45 @@ nav{
 #container-info{
 width: 80%;
 height: 40%;
-background-color: black;
+display:flex;
 z-index:2;
 position:absolute;
 top:30%;
 left:10%;
+justify-content: space-around;
 }
+
+#left-container{
+    width:50%;
+    background-color: white;
+    height: inherit;
+    height: 90%;
+}
+
+#right-container{
+    width:50%;
+    background-color: white;
+    height: inherit;
+    height: 90%;
+}
+
+
+.info{
+    margin-bottom: 44px;
+}
+
+#name{
+    font-size:30px;
+    color:rgb(86 86 86);
+    font: normal normal normal  avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+
+}
+
+td{
+    color: rgb(86 86 86);
+    font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+}
+
+
+
 
