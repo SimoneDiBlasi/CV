@@ -39,7 +39,7 @@ nav{
 }
 
  .grid a{
-    color: rgb(1 84 167);
+    color: rgb(24 32 83);
     font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
     font-size: 10pt;
     text-decoration: none;
@@ -47,7 +47,7 @@ nav{
 
 #name {
     justify-content: left;
-    color: rgb(1 84 167);
+    color: rgb(24 32 83);
     font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
     font-size: 15pt;
     width: 40%;
@@ -92,15 +92,16 @@ header{
 
 
 #name_info{
-    font-size:30px;
+    font-size:21pt;
     color:rgb(86 86 86);
-    font: normal normal normal  avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    font-family: Helvetica, Sans-Serif;
 
 }
 
 td{
     color: rgb(86 86 86);
-    font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    font-family: Helvetica, Sans-Serif;
+    font-size:10pt;
 
 }
 
@@ -118,7 +119,6 @@ td{
 
 #bottom-full-container{
     height: 600px;
-    border: 2px solid green;
     width: 100%;
     display: flex;
     align-items: end;
@@ -127,6 +127,7 @@ td{
 
 table{
    width: 100%;
+       margin-bottom: 7px;
 
 }
 
@@ -143,4 +144,5 @@ tbody{
 
 .coloumn1{
     width: 20px;
+    line-height: 1px;
 }
