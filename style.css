@@ -1,6 +1,6 @@
 html,body{
     margin: 0px;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 nav{
@@ -214,3 +214,132 @@ p{
     font-size: 20pt;
     text-align: center;
 }
+#experience{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: rgb(24 32 83);
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.divider{
+border-color:rgba(239, 239, 239 ,0.4);
+margin-bottom: 5px;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.left-container{
+ 
+    width: 45%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.middle-container{
+
+    width: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.middle-container ul{
+    margin-top:-5px;
+}
+
+.middle-container ul li::marker{
+    font-size: 30px;
+}
+.right-container{
+
+    width: 45%;
+    display: flex;
+    justify-content:baseline;
+
+}
+
+.centered-container{
+    width: 942px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-job{
+    width: 380px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.description-job{
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+.description-job p{
+    text-align: initial;
+    margin-top: 0;
+}
+
+.date-job p{
+text-align: end;
+margin-top: 0;
+}
+
+
+li{
+    color: rgb(24 32 83);
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 10pt;
+}
+
+li::marker{
+    font-size:15px;
+}
+
+.vertical-line{
+    width: 1px;
+    position: absolute;
+    height: 370px;
+    background-color: red;
+    margin-top: 17px;
+}
+
+
+#education{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-line-education{
+    width: 3px;
+    position: absolute;
+    height: 60px;
+    background-color: rgb(24 32 83);
+    margin-top: 17px;
+    margin-right: -6px;
+}
+
+
