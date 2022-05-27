@@ -151,3 +151,66 @@ tbody{
 #myself{
 width: 100%;
 }
+
+#social{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    background-color:rgb(239 239 239);
+}
+
+#social-link{
+    width: 942px;
+    background-color: rgb(24 32 83);
+    height: 70px;
+    display:flex;
+    justify-content: center;
+}
+
+#center-social-link{
+display: flex;
+width: 50%;
+justify-content: center;
+align-items: center;
+}
+
+.social{
+    width: 25px;
+    height: 25px;
+    margin-left:40px;
+}
+
+
+#description{
+    width: 100%;
+    background-color:rgb(239 239 239);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#central-description{
+ width:470px;
+ height:auto;
+ display:inline block;
+ justify-content: center;
+ word-break: break-word;
+ background-color:rgb(239 239 239);
+
+}
+
+p{
+    color: rgb(24 32 83);
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#blue-name{
+    color: rgb(24 32 83);
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
