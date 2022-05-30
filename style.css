@@ -129,6 +129,7 @@ td{
 table{
    width: 100%;
        margin-bottom: 7px;
+       border-collapse: unset;
 
 }
 
@@ -237,7 +238,7 @@ margin-bottom: 5px;
 .main-container{
     width: 100%;
     height: auto;
-    display: flex;
+    display: inline-grid;
     justify-content: center;
     align-items: center;
 
@@ -319,11 +320,17 @@ li::marker{
 .vertical-line{
     width: 1px;
     position: absolute;
-    height: 370px;
-    background-color: red;
+    height: 460px;
+    background-color: rgb(24 32 83);
     margin-top: 17px;
 }
-
+#vertical-line-last{
+    width: 1px;
+    position: absolute;
+    height: 460px;
+    background-color: transparent;
+    margin-top: 17px;   
+}
 
 #education{
     width: 100%;
@@ -334,12 +341,84 @@ li::marker{
 }
 
 .vertical-line-education{
-    width: 3px;
+    width: 1px;
     position: absolute;
     height: 60px;
     background-color: rgb(24 32 83);
     margin-top: 17px;
-    margin-right: -6px;
+
 }
 
 
+#skills{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-table{
+    width: 100%;
+    margin-bottom: 7px;
+    border-spacing: 128px 12px;
+    margin-top: -24px; 
+}
+
+.table-container{
+    width: 942px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.table-container td{
+    color: rgb(24 32 83);
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 15pt;
+}
+
+
+.table-container tbody{
+    border:1px solid rgba(130, 130, 130, 0.3);
+}
+
+.subject{
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.left-container-skill{
+ 
+    width: 33%;
+    display: flex;
+
+
+}
+
+.middle-container-skill{
+
+    width: 33%;
+    display: flex;
+    
+}
+
+.right-container-skill{
+
+    width: 33%;
+    display: flex;
+
+}
+
+.digital-skill{
+    width: 100%;
+}
+
+#vertical-line-education-last{
+    width: 3px;
+    position: absolute;
+    height: 60px;
+    background-color:transparent;
+    margin-top: 17px;
+    margin-right: -6px;   
+}
