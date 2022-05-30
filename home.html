@@ -5,6 +5,8 @@
          <meta name = "author" content ="Simone Di Blasi">
          <meta name="copyright" content="Simone Di Blasi ">
          <meta charset="utf-8"> 
+         <link rel="stylesheet" href="bootstrap-italia/css/bootstrap-italia.min.css" />
+         <script src="./bootstrap-italia.bundle.min.js"></script>
 
          <link rel="stylesheet" href="style.css">
 
@@ -37,10 +39,10 @@
                     <a href="#education">EDUCATION</a>
                     </div> 
                     <div class = 'grid'>
-                    <a href="#body">SKILLS</a>
+                    <a href="#skills">SKILLS</a>
                     </div>
                     <div class = 'grid'>
-                    <a href="#body">DIGITAL SKILLS</a>
+                    <a href="#skills">DIGITAL SKILLS</a>
                     </div>
                     <div class = 'grid'>
                     <a href="#body">PROJECTS</a>
@@ -126,7 +128,7 @@
 
         <!-- SECTION SOCIAL-->
 
-        </body>
+       
 
         <section>
          <div id =social>
@@ -155,7 +157,7 @@
         </div>
 
         <!-- SECTION EXPEREINCE-->
-
+        <hr class = 'divider'>
         <div id = 'experience'>
           <p class = title> EXPERIENCE</p>
         </div>
@@ -225,7 +227,7 @@
                 </ul>
 
 
-              <div class = 'vertical-line'></div>
+              <div id = 'vertical-line-last'></div>
              </div>
 
              <div class ='right-container'>
@@ -457,7 +459,7 @@
                         </ul>
         
         
-                      <div class = 'vertical-line-education'></div>
+                      <div id = 'vertical-line-education-last'></div>
                      </div>
         
                      <div class ='right-container'>
@@ -477,20 +479,23 @@
 
  <!-- SECTION SKILLS-->
 
- <div id = 'education'>
+ <div id = 'skills'>
   <p class = title> SKILLS</p>
 </div>
 <hr class = 'divider'>
 
 <div class ='main-container'>
-        
+      <div class = subject>
+        <p>ENGLISH</p>
+      </div>
+
       <div class ='table-container'>
-        <table id = 'skills-table'>
+        <table class = 'skills-table'>
           <tr>
-            <td>ascolto</td> 
-            <td>lettura</td>
-            <td>scrittura</td>
-            <td>produzione orale</td>
+            <td>LISTEN</td> 
+            <td>READING</td>
+            <td>WRITING</td>
+            <td>SPEAKING</td>
             </tr>
           <tr>
             <td >C1</td> 
@@ -505,5 +510,42 @@
 </div>
 
 
+        <!-- SECTION DIGITAL SKILLS-->
+<hr class = 'divider'>
+<div id = 'skills'>
+  <p class = title> DIGITAL SKILLS</p>
+</div>
+<hr class = 'divider'>
 
+<div class ='main-container'>
+    
+  <div class ='centered-container'>
+                   
+    <div class ='left-container-skill'>
+         <div class ='date-job'>
+          <img src = "giphy.gif" class ='digital-skill'>
+         </div>
+
+     </div>
+
+     <div class ='middle-container-skill'>
+      <img src = "large.gif" class ='digital-skill'>
+     </div>
+
+     <div class ='right-container-skill'>
+          <img src = "unnamed.gif" class ='digital-skill'>
+      </div>
+
+    </div>
+  </div>
+ </div>
+
+
+
+ <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+
+</body>
 
