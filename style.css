@@ -517,3 +517,9 @@ footer{
     color:white;
 }
 
+#separator{
+    width: 1px;
+    position: absolute;
+    height: 450px;
+    background-color: rgba(130, 130, 130, 0.3);
+}
