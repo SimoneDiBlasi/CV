@@ -457,7 +457,6 @@ text-align: justify
 .container-contact{
     width:400px;
     height: 400px;
-    background-color: green;
 }
 
 .centered-container-contact{
@@ -477,8 +476,20 @@ text-align: justify
 
 .contact{
     color: rgb(24 32 83);
-
     font-size: 14pt;
 }
 
+form p{
+    text-align:left ;
+}
 
+input{
+    color: #435a70;
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 15pt;
+
+}
+
+label{
+    color:rgb(24 32 83);
+}
