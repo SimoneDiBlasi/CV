@@ -6,8 +6,10 @@
          <meta name="copyright" content="Simone Di Blasi ">
          <meta charset="utf-8"> 
          <link rel="stylesheet" href="bootstrap-italia/css/bootstrap-italia.min.css" />
-         <script src="./bootstrap-italia.bundle.min.js"></script>
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+         <script src="animation.js"defer></script>
          <link rel="stylesheet" href="style.css">
 
 
@@ -21,7 +23,8 @@
       
       <!-- NAVBAR -->
       
-      
+
+
       <nav>
              <div id = 'container-nav-bar'>
                 <div id = 'name'>
@@ -61,11 +64,11 @@
           <img src = photo1.jpeg id="image1" > 
           <div id = full-container >
            
-          <div id = 'container-info'>
+          <div data-aos="fade-right" id = 'container-info'>
              <div id = left-container>
               <img src = "myself.jpg" id ='myself'>
              </div>
-               <div id = right-container>
+               <div  id = right-container>
                 <div id = sub-right-container>
                 <table class ='info'>
                     <tr>
@@ -131,7 +134,7 @@
        
 
         <section>
-         <div id =social>
+         <div data-aos="fade-up" id =social>
              <div id =social-link>
                <div id = center-social-link>
                  <a href = 'https://www.linkedin.com/in/simone-di-blasi-59265a192/'><img src = linkedin.svg class = 'social'></a>
@@ -181,7 +184,7 @@
                 <div class = 'vertical-line'></div>
              </div>
 
-             <div class ='right-container'>
+             <div data-aos="fade-left" class ='right-container'>
                  <div class ='description-job'>
                   <p>Stagista - Consulente informatico</p>
                      <div class = 'elenco-puntato'>
@@ -230,7 +233,7 @@
               <div id = 'vertical-line-last'></div>
              </div>
 
-             <div class ='right-container'>
+             <div data-aos="fade-left" class ='right-container'>
                  <div class ='description-job'>
                   <p>Stagista - Consulente informatico</p>
                      <div class = 'elenco-puntato'>
@@ -284,7 +287,7 @@
                         <div class = 'vertical-line-education'></div>
                      </div>
         
-                     <div class ='right-container'>
+                     <div data-aos="fade-left" class ='right-container'>
                          <div class ='description-job'>
                           <p>Master Degree in Automation and control of complex systems</p>
                              <div class = 'elenco-puntato'>
@@ -319,7 +322,7 @@
                       <div class = 'vertical-line-education'></div>
                      </div>
         
-                     <div class ='right-container'>
+                     <div data-aos="fade-left" class ='right-container'>
                          <div class ='description-job'>
                           <p>Python Basic</p>
                              <div class = 'elenco-puntato'>
@@ -354,7 +357,7 @@
                       <div class = 'vertical-line-education'></div>
                      </div>
         
-                     <div class ='right-container'>
+                     <div data-aos="fade-left" class ='right-container'>
                          <div class ='description-job'>
                           <p>Inspire Content Manager Basic</p>
                              <div class = 'elenco-puntato'>
@@ -390,7 +393,7 @@
                       <div class = 'vertical-line-education'></div>
                      </div>
         
-                     <div class ='right-container'>
+                     <div data-aos="fade-left" class ='right-container'>
                          <div class ='description-job'>
                           <p>Inspire Designer Basic 14.0</p>
                              <div class = 'elenco-puntato'>
@@ -427,7 +430,7 @@
                       <div class = 'vertical-line-education'></div>
                      </div>
         
-                     <div class ='right-container'>
+                     <div data-aos="fade-left" class ='right-container'>
                          <div class ='description-job'>
                           <p>Bachelor Degree in Computer engineer</p>
                              <div class = 'elenco-puntato'>
@@ -462,7 +465,7 @@
                       <div id = 'vertical-line-education-last'></div>
                      </div>
         
-                     <div class ='right-container'>
+                     <div data-aos="fade-left" class ='right-container'>
                          <div class ='description-job'>
                           <p>Scientific High School diploma</p>
                              <div class = 'elenco-puntato'>
@@ -855,7 +858,7 @@
          </div>
      </div>
 
-     <div class ='right-container'>
+     <div data-aos="fade-left" class ='right-container'>
          <div class ='description-job'>
           <table class ='info-contact'>
             <tr>
@@ -905,9 +908,15 @@
      <p>  Simone Di Blasi © 2022 </p>
    </div>
 </footer>
+
+
+      <script>
+        AOS.init({ easing: 'ease-out-back', duration: 1000 });
+      </script>
 </body>
 
+
+
 <!--Tradurre parti in inglese-->
-<!--Implementare animazioni-->
 <!--Implementare database-->
 <!--Implementare project-->
