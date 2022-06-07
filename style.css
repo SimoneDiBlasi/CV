@@ -523,4 +523,15 @@ footer{
     height: 450px;
     background-color: rgba(130, 130, 130, 0.3);
 }
-
+.border{
+border: none;
+border-bottom: 1px solid #5c6f82;
+}
+.alert{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    transition: .4s ease-out;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+}
