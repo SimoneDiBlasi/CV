@@ -323,6 +323,7 @@ li::marker{
     height: 460px;
     background-color: rgb(24 32 83);
     margin-top: 17px;
+    margin-left:6px;
 }
 #vertical-line-last{
     width: 1px;
@@ -346,7 +347,7 @@ li::marker{
     height: 60px;
     background-color: rgb(24 32 83);
     margin-top: 17px;
-
+    margin-left:6px;
 }
 
 
@@ -534,4 +535,10 @@ border-bottom: 1px solid #5c6f82;
     transition: .4s ease-out;
     border-bottom-color: red;
     border-bottom-style: solid;
+}
+textarea{
+    color: #435a70;
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 15pt;
+
 }
