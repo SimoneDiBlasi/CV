@@ -8,7 +8,6 @@ $host = 'locahost';
 $user='root';
 $password='';
 $db='CV';
-
 $mysqli = mysqli_connect('localhost', 'root', '', 'CV');
 if (mysqli_connect_errno()) {
     throw new RuntimeException('mysqli connection error: ' . mysqli_connect_error());
@@ -26,18 +25,11 @@ $last_name = mysqli_real_escape_string($mysqli,$_GET["cognome"]);
 $email = mysqli_real_escape_string($mysqli,$_GET["email"]);
 $description = mysqli_real_escape_string($mysqli,$_GET["description"]);
 
-
-
 //inserting data order
-$toinsert = mysqli_query($mysqli,"INSERT INTO User VALUES('$name','$last_name','$email','$description')");
-echo $toinsert;
+$toinsert = mysqli_query($mysqli,"INSERT INTO User VALUES('','$name','$last_name','$email','$description')");
+
 //declare in the order variable
-$result = mysql_query($toinsert);	//order executes
-if($result){
-	echo("<br>Inserimento avvenuto correttamente");
-} else{
-	echo("<br>Inserimento non eseguito");
-}
+	//order executes
 }
 ?>
 
@@ -317,7 +309,7 @@ if($result){
                    
                     <div class ='left-container'>
                          <div class ='date-job'>
-                           <p>10/2021 – Attuale<br>University of Catania</p>
+                           <p>10/2021 – Current<br>University of Catania</p>
                          </div>
         
                      </div>
@@ -350,7 +342,7 @@ if($result){
                    
                     <div class ='left-container'>
                          <div class ='date-job'>
-                           <p> 30/05/2022 – Attuale <br>Cousera</p>
+                           <p> 30/05/2022 – Current <br>Cousera</p>
                          </div>
         
                      </div>
@@ -385,7 +377,7 @@ if($result){
                    
                     <div class ='left-container'>
                          <div class ='date-job'>
-                           <p> 30/08/2021 – Attuale <br>Quadient</p>
+                           <p> 30/08/2021 – Current <br>Quadient</p>
                          </div>
         
                      </div>
@@ -421,7 +413,7 @@ if($result){
                    
                     <div class ='left-container'>
                          <div class ='date-job'>
-                           <p> 07/06/2021 – Attuale <br>Quadient</p>
+                           <p> 07/06/2021 – Current <br>Quadient</p>
                          </div>
         
                      </div>
@@ -890,6 +882,7 @@ if($result){
          <p>
            <input type = 'submit' name = 'invio' value ='Send'></label>
          </p>
+                 
         </form>
       </main>
      </div>
@@ -957,5 +950,4 @@ if($result){
       </script>
 </body>
 
-<!--Sistemare db inserendo una chiave id auto progressiva e sostituire nella connect le varie variabili-->
 <!--Implementare project-->
